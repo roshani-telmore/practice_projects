@@ -1,0 +1,37 @@
+.my-Swiper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid;
+  display: flex;
+  .swiper-wrapper {
+    align-items: center;
+    // justify-content: center;
+    padding: 20px;
+
+
+  
+  }
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+}
+.swiper-button{
+    color: blue;
+ 
+    // border-radius: 50%;
+    // width: 60px;
+    // height: 60px;
+    // background-color: black;
+
+  }

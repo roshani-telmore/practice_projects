@@ -1,0 +1,1350 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.admin-page-wrapper {
+  background: #f4f6f8;
+  // min-height: 100vh;
+  // .d-none {display: none !important;}
+
+  .admin-page {
+    display: flex;
+    flex-direction: column;
+    header {
+      display: flex;
+      .sidebar-btn-section {
+        background-color: #fff;
+        max-width: 300px;
+        width: 100%;
+        // padding: 56px 36px;
+
+        .SchoolAccountinnerbox {
+          display: flex;
+
+          background: #452b4f;
+          justify-content: space-around;
+          align-items: center;
+          // padding: 23px 19.33px 23px 26px;
+          border: 0;
+          margin: 0 auto;
+          margin-top: 53px;
+          .wallet {
+            padding: 23px 0px 23px 26px;
+          }
+          .SchoolAccount {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            color: #ffffff;
+            padding: 23px 35px 23px 18px;
+          }
+          .forword {
+            padding: 30px 19px 29px 18px;
+          }
+        }
+      }
+
+      .heading-section {
+        flex-grow: 1;
+        display: flex;
+        padding: 56px 48px;
+        justify-content: space-between;
+        .heading {
+          h2 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height */
+
+            color: #535356;
+            margin: 0;
+          }
+
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+
+            color: #898989;
+            margin: 0;
+            margin-top: 9px;
+          }
+        }
+        .Searchbox {
+          //   padding: 56px 48px 64px 0px;
+          display: flex;
+
+          justify-content: flex-end;
+          .Searchiconclass {
+            padding: 22px 0px 23px 26px;
+            background: #ffffff;
+          }
+
+          form {
+            background: #ffffff;
+            padding: 20px 0px 20px 19px;
+            input {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              display: flex;
+              align-items: center;
+              color: #898989;
+              border: 0px;
+            }
+          }
+        }
+      }
+    }
+    .section-start {
+      display: flex;
+      // background-color: #fff;
+      .sidebar {
+        max-width: 300px;
+        width: 100%;
+        background-color: #fff;
+        box-sizing: border-box;
+
+        padding: 0 36px;
+
+        .sidebar-menu {
+          .menu-item {
+            padding: 22px 0 22px 18px;
+            display: flex;
+            box-sizing: border-box;
+
+            &.active {
+              border: 1px solid #452b4f;
+            }
+
+            .label {
+              padding-left: 18px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 21px;
+              color: #000000;
+            }
+          }
+
+          .menu-divider {
+            height: 0.5px;
+
+            background-color: #898989;
+          }
+        }
+
+        .footer-text {
+          // display: flex;
+          // justify-content: flex-end;
+          position: fixed;
+          bottom: 0px;
+
+          .copyright-text {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #535356;
+            padding-left: 6px;
+            display: flex;
+            align-items: center;
+
+            .spmstext {
+              padding-left: 6px;
+            }
+          }
+
+          .digitalmang {
+            margin-top: 5px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #898989;
+            padding-bottom: 46px;
+            // padding: 0px 36px 46px 36px ;
+          }
+        }
+      }
+
+      .main-content {
+        flex-grow: 1;
+
+        .middle-content {
+          display: flex;
+
+          .left-content {
+            // background-color: lightcoral;
+            flex-grow: 1;
+            // height: 800px;
+            padding: 0px 24px 48px 48px;
+            .activiy-list {
+              padding: 24px;
+              background: #ffffff;
+              .notification-title {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                color: #535356;
+                padding-bottom: 13px;
+              }
+
+              .tx-group-by-date {
+                border-bottom: 0.5px solid #898989;
+                span {
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 18px;
+                  color: #898989;
+                  // padding-top: 24px;
+                  // padding-bottom: 24px;
+                }
+                .transaction-info-wrapper {
+                  display: flex;
+                  padding-top: 18px;
+                  padding-bottom: 18px;
+
+                  .group {
+                    display: flex;
+                    flex-grow: 1;
+                    flex-direction: column;
+                    margin-left: 14px;
+                    // background-color: #ffffff;
+                    .person {
+                      display: flex;
+                      margin-bottom: 4px;
+
+                      // flex-direction: column;
+                      h1 {
+                        font-family: "Poppins";
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #535356;
+                        display: flex;
+                        flex-grow: 1;
+                        margin: 0px;
+                      }
+                      .credit-class {
+                        font-family: "Poppins";
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 18px;
+                        text-align: right;
+                        color: #0aaf60;
+                        margin: 0px;
+                      }
+
+                      .debit-class {
+                        font-family: "Poppins";
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 18px;
+                        text-align: right;
+                        color: red;
+                        margin: 0px;
+                      }
+                    }
+                    .add-balance {
+                      display: flex;
+                      // flex-grow: 1;
+                      p {
+                        font-family: "Poppins";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #898989;
+                        margin: 0px;
+                        flex-grow: 1;
+                      }
+                      h2 {
+                        font-family: "Poppins";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        text-align: right;
+                        color: #898989;
+                        margin: 0px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .tx-group-by-date:last-child {
+                border: 0;
+              }
+            }
+          }
+          .right-content {
+            // background-color: lightgreen;
+            flex-grow: 1;
+            padding: 0px 48px 48px 24px;
+
+            .report-chart {
+              // background-color: goldenrod;
+              background: #ffffff;
+              padding: 24px;
+              margin-bottom: 48px;
+              .text {
+                display: flex;
+                justify-content: space-between;
+                p {
+                  margin: 0px;
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 18px;
+
+                  /* identical to box height */
+
+                  color: #898989;
+                }
+              }
+              .numbers {
+                display: flex;
+                justify-content: space-between;
+                span {
+                  margin: 0px;
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 14px;
+                  line-height: 21px;
+
+                  /* identical to box height */
+
+                  color: #0aaf60;
+                }
+              }
+            }
+            .balance-sheet-wrapper {
+              background: #ffffff;
+
+              .balance-sheet {
+                padding: 24px;
+                p {
+                  margin: 0px;
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 24px;
+                  line-height: 36px;
+                  color: #898989;
+                  flex-grow: 1;
+                }
+                span {
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 24px;
+                  line-height: 36px;
+                  text-align: right;
+                  color: #898989;
+                }
+                .balance {
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color: #535356;
+                  padding-bottom: 24px;
+                }
+                .debit-text {
+                  display: flex;
+                  padding-bottom: 12px;
+                }
+                .credit-text {
+                  display: flex;
+                  padding-bottom: 45px;
+                  border-bottom: 0.5px solid #898989;
+                }
+                .view-account {
+                  display: flex;
+                  justify-content: center;
+                  padding-top: 23px;
+                  a {
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 21px;
+                    text-decoration-line: underline;
+                    color: #452b4f;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// p {
+//   font-family: "Poppins";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 21px;
+//   color: #898989;
+//   margin: 0px;
+//   margin-left: 16px;
+// }
+// .admin-wrapper {
+//   display: flex;
+
+//   background: #f4f6f8;
+//   .left-side-wrapper {
+//     background: #ffffff;
+
+//     // .left-side {
+//     //   padding: 53px 36px 46px 36px;
+
+//     //   .school-account {
+//     //     .s-a-account {
+//     //       padding: 20px 24px 20px 24px;
+//     //       background: #452b4f;
+//     //       display: flex;
+//     //       //justify-content: center;
+//     //       align-items: center;
+//     //       margin-bottom: 64px;
+//     //       span {
+//     //         background: #452b4f;
+//     //         outline: none;
+//     //         color: #ffffff;
+//     //         font-family: "Poppins";
+//     //         font-style: normal;
+//     //         font-weight: 500;
+//     //         font-size: 12px;
+//     //         line-height: 18px;
+//     //         display: flex;
+
+//     //         margin-left: 16px;
+//     //         margin-right: 37px;
+//     //         margin-top: 23px;
+//     //         margin-bottom: 23px;
+//     //         border: 0px;
+//     //       }
+//     //     }
+
+//     //     .home {
+//     //       padding-top: 64px;
+//     //       padding: 20px 0px 20px 24px;
+//     //       display: flex;
+//     //       border: 1px solid #452b4f;
+//     //     }
+//     //     .activity {
+//     //       display: flex;
+//     //       padding-top: 21px;
+//     //       padding-left: 24px;
+//     //       padding-bottom: 30px;
+//     //     }
+//     //     .accounts {
+//     //       padding-top: 30px;
+//     //       display: flex;
+//     //       padding-left: 24px;
+//     //       border-top: 0.5px solid #898989;
+//     //     }
+//     //     .history {
+//     //       padding-top: 42px;
+//     //       display: flex;
+//     //       padding-left: 24px;
+//     //     }
+//     //   }
+//     //   .leftside-footer {
+//     //     padding: 481px 36px 46px 36px;
+//     //     .c-footer {
+//     //       display: flex;
+//     //       span {
+//     //         margin-left: 6px;
+
+//     //         font-family: "Poppins";
+//     //         font-style: normal;
+//     //         font-weight: 500;
+//     //         font-size: 14px;
+//     //         line-height: 21px;
+//     //         color: #535356;
+//     //       }
+//     //     }
+//               p {
+//                 margin: 0px;
+//                 margin-top: 4px;
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 400;
+//                 font-size: 12px;
+//                 line-height: 18px;
+//                 color: #898989;
+//                     }
+//     //   }
+//     // }
+
+//   }
+
+//   .admin {
+//     display: flex;
+//     flex-direction: column;
+//     flex-grow: 1;
+
+//     padding: 56px 48px 48px 48px;
+//     .header-wrapper {
+//       display: flex;
+//       justify-content: space-between;
+//       // flex-grow: 1;
+//       //padding: 56px 48px 0px 48px;
+//       .header {
+//         display: flex;
+//         flex-grow: 1;
+//         justify-content: space-between;
+//         .text {
+//           display: flex;
+//           flex-direction: column;
+//           .text-1 {
+//             font-family: "Poppins";
+//             font-style: normal;
+//             font-weight: 600;
+//             font-size: 18px;
+//             line-height: 27px;
+//             color: #535356;
+//           }
+//           .text-2 {
+//             font-family: "Poppins";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 14px;
+//             line-height: 21px;
+
+//             color: #898989;
+//           }
+//         }
+
+//         .search {
+//           display: flex;
+//           margin-left: 421px;
+//           form {
+//             .search-icon {
+//               display: flex;
+//               background: #ffffff;
+//               padding: 20px 0px 20px 24px;
+//               input {
+//                 background: #ffffff;
+//                 outline: none;
+//                 border: 0px;
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 line-height: 24px;
+
+//                 display: flex;
+//                 align-items: center;
+
+//                 color: #898989;
+//                 margin-left: 16px;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .content-activity-wrapper {
+//       display: flex;
+//       margin-top: 64px;
+//       gap: 48px;
+//       //flex-direction: column;
+//       //width: 499px;
+
+//       .content-activity-leftside {
+//         display: flex;
+//         flex-direction: column;
+//         padding: 24px 24px 42px 24px;
+//         background-color: #ffffff;
+//         flex-grow: 2;
+//         .all-activity {
+//           //display: flex;
+//           //padding: 24px 24px 10px 24px;
+//           display: flex;
+//           // justify-content: space-between;
+//           span {
+//             display: flex;
+//             flex-grow: 1;
+
+//             // padding-right: 351px;
+//             font-family: "Poppins";
+//             font-style: normal;
+//             font-weight: 600;
+//             font-size: 14px;
+//             line-height: 21px;
+
+//             color: #535356;
+//           }
+//         }
+
+//         .yesterday {
+//           display: flex;
+//           font-family: "Poppins";
+//           font-style: normal;
+//           font-weight: 400;
+//           font-size: 12px;
+//           line-height: 18px;
+
+//           margin-top: 13px;
+//           color: #898989;
+//         }
+//         .group {
+//           display: flex;
+//           flex-direction: column;
+//           .group-1 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 12px;
+//             //flex-direction: column;
+//             .inside-gr-1 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+//               // justify-content: space-between;
+//               .bursar {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+
+//                   color: #535356;
+//                   // padding-right: 230px;
+//                   padding-top: 5px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                 }
+//                 .bursar-num {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #0aaf60;
+//                 }
+//               }
+//               .added-balance {
+//                 display: flex;
+
+//                 .added-balance-text {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   color: #898989;
+//                   // padding-right: 222px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                 }
+//                 .added-balance-num {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .group-2 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+//             padding-bottom: 24px;
+//             border-bottom: 0.5px solid #898989;
+//             //flex-direction: column;
+//             .inside-gr-2 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+//               // justify-content: space-between;
+//               .bursar-2 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-2 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+
+//                   color: #535356;
+//                   // padding-right: 215px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   padding-top: 5px;
+//                 }
+//                 .bursar-num-2 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #0aaf60;
+//                 }
+//               }
+//               .added-balance-2 {
+//                 display: flex;
+
+//                 .added-balance-text-2 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   color: #898989;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 230px;
+//                 }
+//                 .added-balance-num-2 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .day {
+//             font-family: "Poppins";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 12px;
+//             line-height: 18px;
+//             padding-top: 24px;
+//             color: #898989;
+//           }
+
+//           .group-3 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+//             //flex-direction: column;
+//             .inside-gr-3 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+//               // justify-content: space-between;
+//               .bursar-3 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-3 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+//                   // padding-right: 227px;
+//                   padding-top: 5px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   color: #535356;
+//                 }
+//                 .bursar-num-3 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+//                   text-align: right;
+
+//                   color: #e12237;
+//                 }
+//               }
+//               .added-balance-3 {
+//                 display: flex;
+
+//                 .added-balance-text-3 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+//                   // padding-right: 204px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   color: #898989;
+//                 }
+//                 .added-balance-num-3 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .group-4 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+
+//             .inside-gr-4 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+
+//               .bursar-4 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-4 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+//                   // padding-right: 217px;
+//                   padding-top: 5px;
+//                   color: #535356;
+//                   display: flex;
+//                   flex-grow: 1;
+//                 }
+//                 .bursar-num-4 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #0aaf60;
+//                 }
+//               }
+//               .added-balance-4 {
+//                 display: flex;
+
+//                 .added-balance-text-4 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   color: #898989;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 222px;
+//                 }
+//                 .added-balance-num-4 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .group-5 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+
+//             .inside-gr-5 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+
+//               .bursar-5 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-5 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+
+//                   color: #535356;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 227px;
+//                   padding-top: 5px;
+//                 }
+//                 .bursar-num-5 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #e12237;
+//                 }
+//               }
+//               .added-balance-5 {
+//                 display: flex;
+
+//                 .added-balance-text-5 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   color: #898989;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 204px;
+//                 }
+//                 .added-balance-num-5 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .group-6 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+
+//             .inside-gr-6 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+
+//               .bursar-6 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-6 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+
+//                   padding-top: 5px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 226px;
+//                   color: #535356;
+//                 }
+//                 .bursar-num-6 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #e12237;
+//                 }
+//               }
+//               .added-balance-6 {
+//                 display: flex;
+
+//                 .added-balance-text-6 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   color: #898989;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 204px;
+//                 }
+//                 .added-balance-num-6 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .group-7 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+//             padding-bottom: 24px;
+
+//             .inside-gr-7 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+
+//               .bursar-7 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-7 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+//                   color: #535356;
+//                   // padding-right: 230px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   padding-top: 5px;
+//                 }
+//                 .bursar-num-7 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #0aaf60;
+//                 }
+//               }
+//               .added-balance-7 {
+//                 display: flex;
+
+//                 .added-balance-text-7 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   color: #898989;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 222px;
+//                 }
+//                 .added-balance-num-7 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+
+//           .days {
+//             font-family: "Poppins";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 12px;
+//             line-height: 18px;
+//             border-top: 0.5px solid #898989;
+//             padding-top: 24px;
+
+//             color: #898989;
+//           }
+
+//           .group-8 {
+//             display: flex;
+//             flex-grow: 1;
+//             padding-top: 18px;
+
+//             .inside-gr-8 {
+//               display: flex;
+//               flex-grow: 1;
+//               flex-direction: column;
+//               margin-left: 14px;
+
+//               .bursar-8 {
+//                 display: flex;
+//                 padding-bottom: 4px;
+//                 .bursar-text-8 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+//                   padding-top: 5px;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 227px;
+//                   color: #535356;
+//                 }
+//                 .bursar-num-8 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 12px;
+//                   line-height: 18px;
+//                   text-align: right;
+
+//                   color: #e12237;
+//                 }
+//               }
+//               .added-balance-8 {
+//                 display: flex;
+
+//                 .added-balance-text-8 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+//                   color: #898989;
+//                   display: flex;
+//                   flex-grow: 1;
+//                   // padding-right: 204px;
+//                 }
+//                 .added-balance-num-8 {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 400;
+//                   font-size: 12px;
+//                   line-height: 18px;
+//                   text-align: right;
+
+//                   color: #898989;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+
+//       .content-activity-rightside {
+//         display: flex;
+//         flex-direction: column;
+//         flex-grow: 1;
+//         .analytic-reports-wrapper {
+//           background-color: #ffffff;
+
+//           .analytic-report {
+//             padding: 18px 24px 24px 24px;
+//             .report {
+//               font-family: "Poppins";
+//               font-style: normal;
+//               font-weight: 600;
+//               font-size: 14px;
+//               line-height: 21px;
+//               color: #535356;
+//               padding-bottom: 32px;
+//             }
+
+//             .total {
+//               // border-top: 0.5px solid #898989;
+//               padding-top: 32px;
+//               display: flex;
+//               flex-direction: column;
+
+//               .total-income {
+//                 display: flex;
+//                 justify-content: space-between;
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 400;
+//                 font-size: 12px;
+//                 line-height: 18px;
+//                 color: #898989;
+//               }
+//               .amount {
+//                 display: flex;
+//                 justify-content: space-between;
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 600;
+//                 font-size: 14px;
+//                 line-height: 21px;
+//                 color: #0aaf60;
+
+//                 .amount-black {
+//                   font-family: "Poppins";
+//                   font-style: normal;
+//                   font-weight: 600;
+//                   font-size: 14px;
+//                   line-height: 21px;
+//                   color: #535356;
+//                 }
+//               }
+//             }
+//           }
+//         }
+
+//         .balance-sheet-wrapper {
+//           // display: flex;
+//           // flex-grow: 1;
+//           padding-top: 48px;
+
+//           .balance-sheet {
+//             background-color: #ffffff;
+//             padding: 24px;
+//             .balance {
+//               font-family: "Poppins";
+//               font-style: normal;
+//               font-weight: 600;
+//               font-size: 14px;
+//               line-height: 21px;
+
+//               padding-bottom: 24px;
+
+//               color: #535356;
+//             }
+//             .debit {
+//               display: flex;
+//               padding-bottom: 12px;
+//               .debit-text {
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 600;
+//                 font-size: 24px;
+//                 line-height: 36px;
+//                 display: flex;
+//                 flex-grow: 1;
+//                 /* identical to box height */
+//                 // padding-right: 204px;
+//                 color: #898989;
+//               }
+//               .debit-num {
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 600;
+//                 font-size: 24px;
+//                 line-height: 36px;
+
+//                 /* identical to box height */
+//                 text-align: right;
+
+//                 color: #898989;
+//               }
+//             }
+//             .credit {
+//               display: flex;
+//               padding-bottom: 45px;
+//               .credit-text {
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 600;
+//                 font-size: 24px;
+//                 line-height: 36px;
+//                 display: flex;
+//                 flex-grow: 1;
+//                 /* identical to box height */
+//                 // padding-right: 242px;
+//                 color: #898989;
+//               }
+//               .credit-num {
+//                 font-family: "Poppins";
+//                 font-style: normal;
+//                 font-weight: 600;
+//                 font-size: 24px;
+//                 line-height: 36px;
+
+//                 /* identical to box height */
+//                 text-align: right;
+
+//                 color: #898989;
+//               }
+//             }
+//             .view-account {
+//               border-top: 0.5px solid #898989;
+//               padding-top: 23px;
+//               font-family: "Poppins";
+//               font-style: normal;
+//               font-weight: 600;
+//               font-size: 14px;
+//               line-height: 21px;
+
+//               /* identical to box height */
+//               text-decoration-line: underline;
+
+//               color: #452b4f;
+//               display: flex;
+//               justify-content: center;
+//               padding-bottom: 24px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

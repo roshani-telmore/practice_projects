@@ -1,0 +1,52 @@
+@font-face {
+  src: url("/fonts/Gilroy-Regular.ttf") format("trueType"),
+    url("/fonts/Chronicle Display Roman.otf") format("OpenType font format");
+  font-family: "Gilroy-Regular";
+  font-family: "Chronicle Display Roman";
+}
+
+@import "./fonts.scss";
+@import "./test-page.scss";
+@import "./flex-box/01.scss";
+@import "./flex-box/02old.scss";
+@import "./flex-box/02new.scss";
+@import "./flex-box/03.scss";
+@import "./flex-box/04.scss";
+@import "./flex-box/05.scss";
+@import "./flex-box/06.scss";
+@import "./flex-box/07.scss";
+@import "./flex-box/08old.scss";
+@import "./flex-box/08new.scss";
+@import "./flex-box/09.scss";
+@import "./flex-box/10.scss";
+@import "./flex-box/11.scss";
+@import "./flex-box/12.scss";
+@import "./flex-box/13.scss";
+@import "./flex-box/14.scss";
+@import "./agency/index.scss";
+@import "./admin/admin.scss";
+@import "./admin/desktop-17.scss";
+@import "./admin/desktop18.scss";
+@import "./admin/desktop19.scss";
+@import "./test/test-admin.scss";
+@import "./travello-travel-agency.scss";
+@import "./enviroment.scss";
+@import "./cowboy.scss";
+@import "./ninjamail.scss";
+@import "./ninjamail-2.scss";
+@import "./photography-event.scss";
+@import "./prabot.scss";
+@import "./parallax-landing-gsap.scss";
+
+@import "./to-do/to-do.scss";
+@import "./to-do/createtask.scss";
+
+
+
+
+@import "./api-practice/sign-in.scss";
+@import "./api-practice/cast-img.scss";
+
+@import "./test/stop-watch.scss";
+@import "./test/swiper-practice.scss";
+@import "./test/swiper-parallax.scss";

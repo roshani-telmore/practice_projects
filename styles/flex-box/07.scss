@@ -1,0 +1,83 @@
+body {
+  .Flex-Box-Seven-Page {
+    display: flex;
+    background-color: #e5e5e5;
+    font-family: "Neue Haas Unica W1G";
+    flex-direction: column;
+    .header {
+      display: flex;
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      border-bottom: solid 3px #000000;
+      padding: 33px 109px 37px 90px;
+      justify-content: space-between;
+
+      .log {
+        display: flex;
+      }
+    }
+    .content-wrapper {
+      display: flex;
+
+      .left-side {
+        border-right: solid 3px #000000;
+        .img-1 {
+          display: flex;
+        }
+        .text-1 {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 120%;
+          padding: 21px 93px 0px 92px;
+        }
+        .text-2 {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 120%;
+          padding: 0px 0px 457px 92px;
+        }
+        .heading-3 {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 48px;
+          line-height: 100%;
+          padding: 0px 43px 32px 92px;
+        }
+        .img-2 {
+          display: flex;
+          padding: 0px 109px 0px 92px;
+        }
+      }
+      .middle {
+        border-right: solid 3px #000000;
+        .heading-2 {
+          padding: 282px 33px 0px 33px;
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 96px;
+          line-height: 100%;
+        }
+        .paragraph {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+          padding: 417px 33px 108px 33px;
+        }
+      }
+      .right-side {
+        display: flex;
+      }
+    }
+  }
+}

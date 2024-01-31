@@ -1,0 +1,1077 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;700;800;900&display=swap");
+
+.ninja-mail-page-2 {
+  background: #ffffff;
+
+  .btn {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: #ffffff;
+  }
+
+  .btn-primary {
+    background-color: #4ba87d;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .btn-secodory {
+    background: #ffffff;
+    border: 3px solid #4ba87d;
+    color: #4ba87d;
+    text-decoration: none;
+  }
+
+  .header {
+    // padding: 28px 100px 33px 100px;
+    padding: 28px 0 33px 0;
+    display: flex;
+    justify-content: space-around;
+
+    .logo {
+      display: flex;
+    }
+    .links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      max-width: 680px;
+      width: 100%;
+      ul.menu-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+
+        li {
+          margin: 0;
+          padding: 0;
+
+          border-bottom: solid 5px #4ba87d;
+          margin-right: 22px;
+
+          a {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height, or 118% */
+
+            letter-spacing: 1.275px;
+
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            padding-bottom: 6px;
+          }
+        }
+      }
+
+      .sign-up-link {
+        margin-left: 15px;
+        a {
+          background-color: #4ba87d;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 17px;
+          line-height: 20px;
+          /* identical to box height, or 118% */
+
+          text-align: center;
+          letter-spacing: 1.275px;
+          text-decoration: none;
+          color: #ffffff;
+          padding: 10px 20px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      .logo .logo-image {
+        width: 238px;
+      }
+      .links ul.menu-links li {
+        margin-right: 11px;
+        a {
+          font-size: 11px;
+          line-height: 13px;
+        }
+      }
+
+      .links .sign-up-link {
+        margin-left: 5px;
+        margin-right: 16px;
+        a {
+          font-size: 11px;
+          line-height: 13px;
+          letter-spacing: 0.825px;
+          padding: 6px 13.5px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 661px) {
+      padding: 8px 0 14px 0;
+      justify-content: space-between;
+      .logo .logo-image {
+        width: 168.24px;
+      }
+      .links ul.menu-links {
+        display: none;
+      }
+      .links .sign-up-link {
+        margin-right: 13px;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .hero-section {
+    margin: 0 auto;
+    max-width: 1088px;
+    background-image: url("/images/ninjamail-header.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 383px;
+    display: flex;
+    align-items: center;
+    .create-email-para {
+      max-width: 489px;
+      width: 100%;
+      h1 {
+        margin-top: 22px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 59px;
+        line-height: 71px;
+        color: #000000;
+      }
+      p {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        color: #000000;
+        margin-top: 23px;
+        margin-bottom: 35px;
+      }
+
+      .try-now-btn {
+        display: flex;
+        gap: 45px;
+
+        .btn {
+          flex-grow: 1;
+          padding: 20px 0;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      max-width: 711px;
+      min-height: 250px;
+      background-size: 445px 250px;
+
+      .create-email-para {
+        max-width: 315px;
+
+        h1 {
+          font-size: 38px;
+          line-height: 46px;
+          margin-top: 14px;
+        }
+
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          margin-top: 17px;
+          margin-bottom: 25px;
+        }
+
+        .try-now-btn {
+          .btn {
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.65px;
+            padding: 13px 0;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 730px) {
+      background-size: contain;
+      background-position: 0 60px;
+      padding-bottom: 20px;
+      .create-email-para {
+        min-height: 324.22px;
+        max-width: unset;
+        width: unset;
+        justify-content: space-between;
+        flex-direction: column;
+        display: flex;
+        padding: 0 9px;
+
+        h1 {
+          max-width: 284px;
+          font-size: 36px;
+          margin-bottom: calc((98 / 320) * 100vw);
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 16px;
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  .video-wrap {
+    .video-bckgrd {
+      background-image: url("/images/ninjamail-video.png");
+      max-width: 944px;
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      background-size: contain;
+      min-height: 531px;
+      margin-top: 86px;
+      margin-bottom: 98px;
+      z-index: 2;
+      position: relative;
+      .video-para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //   padding-top: 150px;
+        h1 {
+          font-family: "Playfair Display";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 60px;
+          line-height: 80px;
+          /* identical to box height, or 133% */
+
+          color: #ffffff;
+          padding-top: 163px;
+          padding-bottom: 61px;
+        }
+        .btn-learn-how {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 21px;
+          line-height: 25px;
+          /* identical to box height, or 119% */
+
+          text-align: center;
+          letter-spacing: 1.05px;
+          background: #ffffff;
+          color: #4ba87d;
+          padding: 20px 32px;
+          text-decoration: none;
+        }
+      }
+
+      @media screen and (max-width: 991px) {
+        max-width: 616px;
+        min-height: 409px;
+        margin: 0 auto;
+        margin-top: 85px;
+        margin-bottom: 55px;
+        .video-para {
+          h1 {
+            font-size: 38px;
+            line-height: 51px;
+            padding-bottom: 41px;
+            padding-top: 106px;
+          }
+          .btn-learn-how {
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 0.65px;
+            padding: 12px 24px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 491px) {
+        max-width: 304px;
+        margin: 0 auto;
+        min-height: 202px;
+        margin-top: 42px;
+        margin-bottom: 33px;
+        .video-para {
+          h1 {
+            font-size: 22px;
+            line-height: 29px;
+            padding-bottom: 20.5px;
+            padding-top: 48px;
+          }
+          .btn-learn-how {
+            font-size: 6px;
+            line-height: 7px;
+            letter-spacing: 0.3px;
+            padding: 6px 13px;
+          }
+        }
+      }
+    }
+  }
+  .sec3-wrap {
+    position: relative;
+    z-index: 1;
+
+    .background {
+      background: #caeac7;
+      mix-blend-mode: normal;
+      max-height: 692px;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+      transform: skewY(-10deg);
+    }
+
+    .sec3 {
+      display: flex;
+      max-width: 1098px;
+      margin: 0 auto;
+      column-gap: 47px;
+      // background-image: url("/images/ninjamail-sec3-back.png");
+
+      .thumb1-wrap {
+        background: #ffffff;
+        max-width: 320px;
+        padding-bottom: 20px;
+        margin-bottom: 100px;
+        p {
+          margin: 0;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+          margin: 24px 39px 4px 30px;
+        }
+        span {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4ba87d;
+          padding: 0px 0px 20px 30px;
+        }
+      }
+
+      .thumb2-wrap {
+        background: #ffffff;
+        max-width: 320px;
+        padding-bottom: 20px;
+        margin-top: 81px;
+        p {
+          margin: 0px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+          margin: 22px 30px 13px 31px;
+        }
+
+        span {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4ba87d;
+          padding: 0px 0px 22px 31px;
+        }
+      }
+
+      .sec3-para {
+        max-width: 320px;
+        padding-bottom: 20px;
+        margin-top: 117px;
+        h1 {
+          margin: 0px;
+          font-family: "Playfair Display";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 48px;
+          color: #000000;
+          margin-bottom: 24px;
+        }
+
+        h2 {
+          margin: 0px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 26px;
+          color: #000000;
+        }
+      }
+
+      @media screen and (max-width: 1065px) {
+        max-width: 710px;
+        margin: 0 auto;
+        gap: 30px;
+        .background {
+          height: 500px;
+        }
+
+        img {
+          width: 100%;
+        }
+        .thumb1-wrap {
+          max-width: 209px;
+          padding-bottom: 13px;
+          p {
+            margin: 0;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 17px 25px 1px 20px;
+            // text-align: center;
+          }
+          span {
+            font-size: 12px;
+            line-height: 14px;
+            padding: 0px 0px 13px 20px;
+          }
+        }
+        .thumb2-wrap {
+          max-width: 209px;
+          padding-bottom: 14px;
+          margin-top: 53.66px;
+          p {
+            font-size: 12px;
+            line-height: 16px;
+            margin: 0;
+            margin: 16px 19px 7px 20px;
+          }
+          span {
+            font-size: 12px;
+            line-height: 14px;
+            padding: 0px 0px 14px 20px;
+          }
+        }
+        .sec3-para {
+          max-width: 232px;
+          margin-top: 90px;
+          h1 {
+            font-size: 28px;
+            line-height: 31px;
+            margin-bottom: 17px;
+          }
+          h2 {
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 491px) {
+        display: flex;
+        flex-direction: column;
+        padding: 0 9px;
+        // max-width: 302px;
+        // margin: 0 auto;
+        gap: 10px;
+        .thumb1-wrap {
+          margin: 0;
+          padding-bottom: 13px;
+          p {
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+        .thumb2-wrap {
+          margin: 0;
+          padding-bottom: 14px;
+          // margin-top: 10px;
+          align-self: flex-end;
+          p {
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+        .sec3-para {
+          margin: 0;
+          max-width: 232px;
+          align-self: center;
+          // margin-top: 18ox;
+        }
+      }
+    }
+  }
+
+  .case-wrap {
+    display: flex;
+    max-width: 1089px;
+    margin: 0 auto;
+    column-gap: 32px;
+    padding-bottom: 40px;
+    padding-top: 133px;
+    .case-study-info {
+      max-width: 342px;
+      width: 100%;
+      z-index: 1;
+
+      .study-img {
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 239px;
+        // max-width: 342px;
+        .info {
+          display: flex;
+          flex-direction: column;
+          padding-left: 27px;
+          padding-bottom: 5px;
+          .name {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 34px;
+            line-height: 40px;
+            color: #ffffff;
+          }
+
+          .year {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 1090px) {
+      max-width: 708px;
+      column-gap: 19px;
+      padding-bottom: 25px;
+      padding-top: 87px;
+      .case-study-info {
+        max-width: 223px;
+        width: 100%;
+        .study-img {
+          min-height: 157px;
+          .info {
+            padding-left: 17px;
+            padding-bottom: 5px;
+            .name {
+              font-size: 22px;
+              line-height: 26px;
+            }
+            .year {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 730px) {
+      display: flex;
+      flex-direction: column;
+      max-width: 239px;
+      row-gap: 21px;
+      column-gap: 0px;
+      padding-top: 47px;
+      padding-bottom: 25px;
+      .case-study-info {
+        max-width: 223px;
+        width: 100%;
+        .study-img {
+          min-height: 157px;
+          .info {
+            padding-left: 17px;
+            padding-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .sec4-para {
+    max-width: 591px;
+    width: 100%;
+    margin: 0 auto;
+    h1 {
+      // max-width: 591px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 36px;
+      text-align: center;
+      color: #000000;
+      padding-bottom: 15px;
+    }
+    .email-wrap {
+      display: flex;
+      justify-content: center;
+      gap: 27px;
+      .email {
+        // padding-bottom: 20px;
+        // gap: 27px;
+        form {
+          background: #ffffff;
+          border: 1px solid #9f9f9f;
+          border-radius: 5px;
+          margin-bottom: 20px;
+          input {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 25px;
+            letter-spacing: 1.05px;
+            color: #000000;
+            padding: 12px 0px 15px 16px;
+            border: 0px;
+          }
+        }
+
+        .thanks {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 15px;
+          letter-spacing: 0.65px;
+          color: #4ba87d;
+          // text-align: center;
+        }
+      }
+
+      .join-btn {
+        button {
+          background: #4ba87d;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 13px;
+          line-height: 15px;
+          text-align: center;
+          letter-spacing: 0.65px;
+          color: #ffffff;
+          padding: 13px 22px 14px 22px;
+          border: 0px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      h1 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        padding-bottom: 4px;
+      }
+      .email-wrap {
+        padding-bottom: 13px;
+        gap: 17px;
+        .email {
+          form {
+            margin-bottom: 13px;
+            input {
+              font-size: 13px;
+              line-height: 15px;
+              letter-spacing: 0.65px;
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 491px) {
+      display: flex;
+      flex-direction: column;
+      max-width: 239px;
+      width: 100%;
+      h1 {
+        font-size: 26px;
+        line-height: 36px;
+        padding-bottom: 5px;
+      }
+      .email-wrap {
+        display: flex;
+        flex-direction: column;
+        // padding-bottom: 7px;
+        gap: 0;
+        .email {
+          padding-bottom: 7px;
+
+          form {
+            margin-bottom: 6px;
+            input {
+              padding: 13px 0px 13px 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sec5-wrap {
+    max-width: 971px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 75px;
+    .sec5-title {
+      max-width: 617px;
+      margin: 0 auto;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 48px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 39px;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: space-between;
+    }
+    @media screen and (max-width: 1000px) {
+      max-width: 617px;
+      margin: 0 auto;
+      margin-top: 50px;
+      .sec5-title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 5px;
+      }
+      .logos {
+        .logo-1 {
+          max-width: 104px;
+          width: 100%;
+          img {
+            max-width: 104px;
+            width: 100%;
+          }
+        }
+        .logo-2 {
+          max-width: 55px;
+          width: 100%;
+          img {
+            max-width: 55px;
+            width: 100%;
+          }
+        }
+        .logo-3 {
+          max-width: 94px;
+          width: 100%;
+          img {
+            max-width: 94px;
+            width: 100%;
+          }
+        }
+        .logo-4 {
+          max-width: 92px;
+          width: 100%;
+          img {
+            max-width: 92px;
+            width: 100%;
+          }
+        }
+
+        .logo-5 {
+          max-width: 91px;
+          width: 100%;
+          img {
+            max-width: 91px;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 900px) {
+      max-width: 345px;
+      margin: 0 auto;
+      margin-top: 54px;
+      .sec5-title {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 5px;
+      }
+      .logos {
+        flex-wrap: wrap;
+        .logo-1 {
+          order: 3;
+          padding: 0px 41px 26px 0px;
+        }
+        .logo-2 {
+          order: 1;
+          padding: 0 67px 29px 24px;
+        }
+        .logo-3 {
+          order: 5;
+          padding: 0px 95px 0px 92px;
+        }
+        .logo-4 {
+          order: 4;
+          padding: 0px 0px 29px 0px;
+        }
+        .logo-5 {
+          order: 2;
+          padding: 4px 0px 41px 0px;
+        }
+      }
+    }
+  }
+
+  .get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #4ba87d;
+    margin-top: 146px;
+    min-height: 366px;
+    h3 {
+      margin: 0;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 80px;
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 10px;
+    }
+
+    .btn-pick-plan {
+      color: #4ba87d;
+      text-decoration: none;
+      background: #ffffff;
+      padding: 19px 30px 21px 33px;
+    }
+    @media screen and (max-width: 991px) {
+      margin-top: 95px;
+      min-height: 240px;
+      h3 {
+        font-size: 42px;
+        line-height: 56px;
+        padding-bottom: 13px;
+      }
+      .btn-pick-plan {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 13px 23px;
+      }
+    }
+    @media screen and (max-width: 449px) {
+      margin-top: 58px;
+      min-height: 290px;
+      h3 {
+        font-size: 42px;
+        line-height: 48px;
+        padding-bottom: 19px;
+      }
+    }
+  }
+
+  .footer-logo-wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 73px;
+    .footer-links {
+      display: flex;
+      gap: 92px;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+          margin: 0;
+          padding: 0;
+          padding-bottom: 10px;
+          a {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .footer-link-a {
+        display: flex;
+        gap: 57px;
+      }
+
+      .footer-link-b {
+        display: flex;
+        gap: 75px;
+      }
+    }
+    @media screen and (max-width: 991px) {
+      max-width: 768px;
+      margin: 0 auto;
+      padding-top: 47px;
+      .footer-links {
+        gap: 63px;
+        ul {
+          li {
+            padding-bottom: 7px;
+            a {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+
+        .footer-link-a {
+          gap: 39px;
+        }
+        .footer-link-b {
+          gap: 51px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 608px) {
+      max-width: 608px;
+      margin: 0 auto;
+      padding-top: 47px;
+      display: block;
+      margin: 0 17px 0 17px;
+      .footer-links {
+        gap: 96px;
+
+        .footer-link-a {
+          display: block;
+        }
+        .footer-link-b {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .footer-terms-wrap {
+    max-width: 1088px;
+    margin: 0 auto;
+
+    padding-bottom: 48px;
+
+    .divider {
+      border: 2px solid #dbdbdb;
+    }
+    .footer-terms {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 39px;
+      p {
+        margin: 0;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+      }
+      .terms-condition {
+        display: flex;
+        gap: 35px;
+        span {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 18px;
+          color: #000000;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1124px) {
+      max-width: 711px;
+      margin: 0 auto;
+
+      padding-bottom: 30px;
+      .divider {
+        width: 100%;
+      }
+      .footer-terms {
+        padding-top: 25px;
+        p {
+          font-size: 9px;
+          line-height: 11px;
+        }
+        .terms-condition {
+          gap: 30px;
+          span {
+            font-size: 9px;
+            line-height: 11px;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      margin: 0 auto;
+      padding-bottom: 51px;
+      margin-left: 17px;
+      .divider {
+        margin: 0;
+      }
+      .footer-terms {
+        display: flex;
+        flex-direction: column;
+        padding-top: 22px;
+        p {
+          max-width: 186px;
+          font-size: 9px;
+          line-height: 19px;
+        }
+        .terms-condition {
+          display: flex;
+          flex-direction: column;
+          gap: 9px;
+          margin-top: 14px;
+          span {
+            font-size: 9px;
+            line-height: 11px;
+          }
+        }
+      }
+    }
+  }
+}

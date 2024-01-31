@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+body {
+  background-color: #f4f6f8;
+}
+
+.spms-checkbox {
+  margin-right: 8px;
+  span {
+    background: #f6f6f6;
+    // background: #452B4F;
+
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  input {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+    position: absolute;
+    right: -999999999px;
+  }
+
+  input:checked + label span {
+    background-image: url("/images/check-box.svg");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.account-wrapper {
+  background-color: #f4f6f8;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  .account {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+    padding: 140px 147px 91px 147px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .header {
+      padding-bottom: 64px;
+      .logo-title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 54px;
+        color: #535356;
+      }
+      .title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #898989;
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      .student-name {
+        display: flex;
+        padding-bottom: 32px;
+        gap: 32px;
+
+        .name {
+          background: #f6f6f6;
+
+          form {
+            background-color: #f6f6f6;
+            .st-name {
+              display: flex;
+              padding: 20px 0px 20px 24px;
+              input {
+                border: 0px;
+                background-color: #f6f6f6;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+
+                /* identical to box height */
+                // display: flex;
+                // align-items: center;
+
+                color: #898989;
+                margin-left: 16px;
+
+                outline: 0px;
+              }
+            }
+          }
+        }
+        .email {
+          background-color: #f6f6f6;
+
+          form {
+            background-color: #f6f6f6;
+            .st-email {
+              display: flex;
+              padding: 20px 0px 20px 24px;
+              input {
+                border: 0px;
+                background-color: #f6f6f6;
+
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+
+                /* identical to box height */
+                display: flex;
+                align-items: center;
+
+                color: #898989;
+                margin-left: 18px;
+                outline: 0px;
+              }
+            }
+          }
+        }
+      }
+
+      .student-password {
+        display: flex;
+        padding-bottom: 32px;
+        gap: 32px;
+        //justify-content: space-between;
+        .password {
+          form {
+            background-color: #f6f6f6;
+            .pass {
+              display: flex;
+              padding: 20px 0px 20px 24px;
+              input {
+                border: 0px;
+                background-color: #f6f6f6;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+
+                /* identical to box height */
+                //display: flex;
+                //align-items: center;
+
+                color: #898989;
+                margin-left: 16px;
+                outline: 0px;
+              }
+            }
+          }
+        }
+        .phonenumber {
+          form {
+            background-color: #f6f6f6;
+            .number {
+              display: flex;
+              padding: 20px 0px 20px 24px;
+              input {
+                border: 0px;
+                background-color: #f6f6f6;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+
+                /* identical to box height */
+                // display: flex;
+                // align-items: center;
+
+                color: #898989;
+                margin-left: 19px;
+                outline: 0px;
+              }
+            }
+          }
+        }
+      }
+      .confirm-pass {
+        padding-bottom: 38px;
+        display: flex;
+        form {
+          background-color: #f6f6f6;
+          .conf-pass {
+            display: flex;
+            padding: 20px 0px 20px 24px;
+            input {
+              border: 0px;
+              background-color: #f6f6f6;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+
+              color: #898989;
+              margin-left: 16px;
+              outline: 0px;
+            }
+          }
+        }
+      }
+      .check {
+        padding-bottom: 61px;
+        fieldset {
+          border: 0px;
+          margin: 0px;
+          padding: 0px;
+          .inside-check {
+            display: flex;
+            align-items: center;
+            label {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+
+              color: #535356;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      .register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 36px;
+        //background-color: #452b4f;
+        button {
+          background-color: #452b4f;
+          padding: 20px 189px 20px 187px;
+          border: 0px;
+          p {
+            margin: 0px;
+          }
+          a {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            //justify-content: center;
+            // padding-top: 20px;
+            // padding-bottom: 20px;
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
+      }
+      .login {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* identical to box height */
+        text-align: center;
+
+        color: #535356;
+        a {
+          color: #535356;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.FlexBoxTenPage {
+  background-color: #e5e5e5;
+  font-family: "Neue Haas Unica W1G";
+  .header {
+    display: flex;
+    padding: 33px 109px 37px 90px;
+    justify-content: space-between;
+    border-bottom: solid 3px #000000;
+    .logo {
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+    }
+  }
+  .content {
+    display: flex;
+
+    .left-side {
+      display: flex;
+
+      flex-direction: column;
+      border-right: solid 3px #000000;
+      .logo-text {
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        text-transform: uppercase;
+
+        padding: 572px 0px 0px 90px;
+      }
+      .heading {
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 100%;
+
+        padding-top: 8px;
+        padding-left: 90px;
+        padding-right: 61px;
+      }
+    }
+    .right-side {
+      display: flex;
+
+      .girl-img {
+        display: flex;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

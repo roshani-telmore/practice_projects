@@ -1,0 +1,74 @@
+.FlexBoxElevenPage {
+  background-color: #e5e5e5;
+  font-family: "Neue Haas Unica W1G";
+  display: flex;
+  flex-direction: column;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #000000;
+    padding: 33px 109px 37px 90px;
+    .logo {
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+    }
+  }
+  .content {
+    display: flex;
+
+    //border-bottom: solid 3px #000000;
+    padding-top: 144px;
+    // padding-left: 90px;
+
+    .heading {
+      display: flex;
+      flex-direction: row;
+
+      background-image: url("/images/flex-box-11-img-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+
+      height: 470px;
+      width: 100%;
+      max-width: 100vw;
+
+      span {
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 100%;
+        padding-left: 4.6875vw;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .footer {
+    display: flex;
+    border-top: solid 3px #000000;
+    justify-content: space-between;
+    padding: 128px 360px 139px 360px;
+
+    .text {
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 120%;
+    }
+
+    .para {
+      display: flex;
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 120%;
+      padding-left: 372px;
+    }
+  }
+}

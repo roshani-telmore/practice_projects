@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lexend+Deca:wght@100;200;300;400;500&family=Nunito:ital,wght@0,200;0,300;1,200&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+.sign-in-page {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  background: #093545;
+  margin-top: 90px;
+  .sign-in {
+    h1 {
+      padding-top: 130px;
+      padding-bottom: 39px;
+      margin: 0;
+      font: normal 400 64px/80px "Lexend Deca";
+      text-align: center;
+      color: #ffffff;
+    }
+    p {
+      padding-bottom: 36px;
+      margin: 0;
+      font: normal 400 16px/20px "Lexend Deca";
+      text-align: center;
+      color: #ffffff;
+    }
+    form {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      .username {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+
+        .user {
+          background: #224957;
+          border-radius: 10px;
+          input {
+            min-height: 30px;
+            padding: 13px;
+            background: #224957;
+            border-radius: 10px;
+            border: 0px;
+            outline: none;
+            font: normal 400 14px/20px "Lexend Deca";
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+      }
+
+      .password {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 23px;
+
+        .pass {
+          background: #224957;
+          border-radius: 10px;
+
+          input {
+            padding: 13px;
+            background: #224957;
+            border-radius: 10px;
+            border: 0px;
+            outline: none;
+            font: normal 400 14px/20px "Lexend Deca";
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+      }
+      .remember {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+        gap: 32px;
+        .check {
+          fieldset {
+            margin: 0;
+            padding: 0;
+            border: 0;
+
+            .inside-check {
+              display: flex;
+
+              .spms-checkbox {
+                margin-right: 7px;
+                label {
+                  span {
+                    border-radius: 5px;
+                    width: 18px;
+                    height: 17px;
+                  }
+                }
+              }
+              label {
+                font: normal 500 14px/17px "Montserrat";
+                text-align: center;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+
+        .forgot-pass {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #20df7f;
+        }
+      }
+      .login-btn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 13px;
+        max-width: 200px;
+        width: 100%;
+        background: #20df7f;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        font: normal 400 16px/20px "Lexend Deca";
+        text-align: center;
+        color: #ffffff;
+        border: 0px;
+        cursor: pointer;
+      }
+    }
+  }
+  .register-btn {
+    display: flex;
+    margin-top: 30px;
+    .register {
+      padding: 13px;
+      max-width: 200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .mode {
+    .dark-mode {
+      margin-bottom: -106px;
+      padding-left: 12px;
+    }
+  }
+
+
+}

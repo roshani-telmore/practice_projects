@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.spms-checkbox {
+  margin-right: 8px;
+  span {
+    background: #f6f6f6;
+    // background: #452B4F;
+
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  input {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+    position: absolute;
+    right: -999999999px;
+  }
+
+  input:checked + label span {
+    background-image: url("/images/check-box.svg");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+
+.page-wrapper {
+  display: flex;
+  background-color: #f4f6f8;
+
+  //min-width: 900px;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  justify-content: center;
+  align-items: center;
+
+  .page {
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 140px 225px 64px 225px;
+
+    //min-width: 900px;
+    .header {
+      display: flex;
+      flex-direction: column;
+      //padding-top: 140px;
+      .title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 54px;
+        color: #535356;
+        padding-bottom: 8px;
+      }
+      .para {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #898989;
+      }
+    }
+    .content {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      padding-top: 48px;
+      .username {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+
+        color: #898989;
+        padding-bottom: 32px;
+        form {
+          background: #f6f6f6;
+
+          flex-grow: 1;
+          .user {
+            display: flex;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 24px;
+            padding-right: 303px;
+            input {
+              border: 0px;
+              background: #f6f6f6;
+              margin-left: 20px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+
+              /* identical to box height */
+              display: flex;
+              align-items: center;
+
+              color: #898989;
+              outline: 0px;
+            }
+          }
+        }
+      }
+      .password {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+
+        color: #898989;
+        padding-bottom: 38px;
+        form {
+          background: #f6f6f6;
+          flex-grow: 1;
+          .pass {
+            display: flex;
+            padding: 20px 309px 20px 24px;
+            input {
+              border: 0px;
+              background: #f6f6f6;
+              margin-left: 20px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+
+              /* identical to box height */
+              display: flex;
+              align-items: center;
+
+              color: #898989;
+              outline: 0px;
+            }
+          }
+        }
+      }
+      .check {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        fieldset {
+          border: 0px;
+          margin: 0px;
+          padding: 0px;
+          .inside-check {
+            display: flex;
+            align-items: center;
+            label {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+
+              color: #535356;
+            }
+          }
+        }
+
+        .forgot-pass {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+
+          /* identical to box height */
+          text-decoration-line: underline;
+
+          color: #535356;
+        }
+      }
+      .login {
+        padding-top: 61px;
+        display: flex;
+        flex-grow: 1;
+        button {
+          background: #452b4f;
+          border: 0px;
+          display: flex;
+          flex-grow: 1;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+
+          p {
+            margin: 0px;
+            padding: 20px 201px 20px 200px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+
+            color: #ffffff;
+          }
+        }
+      }
+      .register {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #535356;
+        padding-top: 36px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          //text-decoration: underline;
+          margin: 0px;
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+
+    .footer {
+      padding-top: 110px;
+      .terms {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        text-align: center;
+        text-decoration-line: underline;
+
+        color: #535356;
+        a {
+          color: #535356;
+        }
+      }
+    }
+  }
+}

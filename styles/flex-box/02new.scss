@@ -1,0 +1,90 @@
+body {
+  .FlexBoxTwoNewPage {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    .header {
+      display: flex;
+      padding: 33px 109px 37px 90px;
+      font-family: "Neue Haas Unica W1G";
+      border-bottom: solid 3px #000000;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      .text-1 {
+        flex-grow: 1;
+      }
+      .text-2 {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+      }
+    }
+    .main {
+      display: flex;
+      border-bottom: solid 3px #000000;
+      .img-1 {
+        display: flex;
+      }
+      .right-side-main {
+        display: flex;
+        flex-direction: column;
+        border-left: solid 3px #000000;
+        .heading {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 96px;
+          line-height: 100%;
+          padding-top: 22px;
+          padding-left: 29px;
+        }
+        .passage {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 120%;
+          padding: 368px 90px 59px 144px;
+        }
+      }
+    }
+    .footer {
+      display: flex;
+
+      .left-side-footer {
+        border-right: solid 3px #000000;
+        //flex-grow: 1;
+        .data {
+          padding: 101px 284px 0px 90px;
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 110%;
+          //flex-grow: 1;
+        }
+        .rectangle {
+          //padding: 77px 1063px 90px 90px;
+          padding-top: 77px;
+          padding-bottom: 90px;
+          padding-left: 90px;
+
+          padding-right: 1063px;
+          //flex-grow: 1;
+        }
+      }
+      .right-side-footer {
+        display: flex;
+        flex-direction: column;
+        //border-left: solid 3px #000000;
+        padding-right: 75px;
+        padding-bottom: 90px;
+        .black-img {
+          display: flex;
+        }
+      }
+    }
+  }
+}

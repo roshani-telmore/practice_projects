@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  //   font-family: "Neue Haas Unica W1G";
+  //   height: 100%;
+}
+
+.reponsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.flexbox-08-responsive-page {
+  // width: 1440px;
+  display: flex;
+  flex-direction: column;
+  // height: 100vh;
+  margin: 0 auto;
+  background-color: #eeecea;
+  .header {
+    display: flex;
+    padding-top: 2.0625rem;
+    padding-bottom: 2.0625rem;
+    padding-right: 5.625rem;
+    padding-left: 5.625rem;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    .logo-text {
+      p {
+        margin: 0;
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 100%;
+        /* identical to box height, or 20px */
+
+        color: #000000;
+      }
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    .left-side {
+      display: flex;
+      border-right: solid 3px;
+    }
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      .upper-side {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 3px;
+        .heading {
+          border-right: solid 3px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            font-family: "Neue Haas Unica W1G";
+            font-style: normal;
+            font-weight: 400;
+            font-size: calc(5vw);
+            line-height: 100%;
+            /* identical to box height, or 96px */
+
+            color: #000000;
+            white-space: nowrap;
+            transform: rotate(-90deg);
+
+            display: block;
+          }
+        }
+        .text-image-holder {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          .para-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            @media screen and (max-width: 1439px) {
+              justify-content: center;
+            }
+            p {
+              margin: 0;
+              max-width: 497px;
+              width: 100%;
+              font-family: "Neue Haas Unica W1G";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 120%;
+              /* or 29px */
+
+              color: #000000;
+              padding-top: 69px;
+              padding-bottom: 46px;
+              padding-right: 101px;
+              @media screen and (max-width: 1439px) {
+                padding-right: unset;
+              }
+            }
+          }
+        }
+      }
+
+      .lower-side {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        .number {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 110%;
+          /* identical to box height, or 40px */
+
+          color: #000000;
+        }
+        .text {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 110%;
+          /* or 22px */
+
+          color: #000000;
+          max-width: 345px;
+          margin-left: 24px;
+        }
+        .side-left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-grow: 1;
+        }
+        .side-right {
+          flex-grow: 1;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

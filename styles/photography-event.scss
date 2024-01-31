@@ -1,0 +1,877 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.photography-event-page {
+  background: #ffffff;
+  .header {
+    .bg-img {
+      .header-img {
+        background-image: url("/images/photography-cam.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+        height: 100%;
+        position: relative;
+      }
+    }
+
+    .header-contant {
+      position: relative;
+      display: flex;
+      // justify-content: space-around;
+      background: #ffffff;
+      border-radius: 56px 56px 0px 0px;
+
+      .header-containt-left {
+        padding-left: 80px;
+        .photography-title {
+          h1 {
+            margin: 0px;
+            padding-top: 39px;
+            padding-bottom: 12px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+
+            color: #000000;
+          }
+          h2 {
+            margin: 0px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 151.02%;
+            /* or 33px */
+
+            color: #5d84a7;
+          }
+        }
+        .profile {
+          display: flex;
+          align-items: center;
+          padding-top: 29px;
+          padding-bottom: 37px;
+          .pro {
+            display: flex;
+            align-items: center;
+            h1 {
+              margin: 0px;
+              padding-top: 0px;
+              padding-left: 22px;
+              padding-right: 24px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+
+              color: #5d84a7;
+            }
+          }
+          span {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #c1c1c1;
+          }
+        }
+
+        .sticky-bar-left-side {
+          display: none;
+          h1 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 151.02%;
+            /* or 27px */
+
+            color: #5d84a7;
+          }
+          span {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #000000;
+          }
+          .content-1 {
+          }
+
+          .content-2 {
+            h1 {
+            }
+            span {
+            }
+          }
+          .content-3 {
+            h1 {
+            }
+            span {
+            }
+          }
+        }
+
+        .event-include-wrap {
+          .event-include {
+            max-width: 711px;
+            width: 100%;
+            h1 {
+              margin: 0px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 151.02%;
+              /* or 33px */
+
+              color: #5d84a7;
+            }
+
+            .interaction {
+              padding-top: 32px;
+              padding-bottom: 22px;
+              display: flex;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 151.02%;
+              /* or 24px */
+
+              color: #000000;
+              .emoji {
+                padding-right: 22px;
+              }
+            }
+
+            .recording {
+              padding-bottom: 80px;
+              display: flex;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 151.02%;
+              color: #000000;
+              .emoji {
+                padding-right: 22px;
+              }
+            }
+            .about-the-event {
+              padding-top: 52px;
+
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 151.02%;
+              color: #5d84a7;
+            }
+            .para {
+              // max-width: 300px;
+              // width: 100%;
+              padding-top: 17px;
+              padding-bottom: 10px;
+              margin: 0px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 156.52%;
+              /* or 28px */
+
+              color: #000000;
+            }
+            .read-more {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 151.02%;
+              /* or 24px */
+
+              color: #5d84a7;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .header-containt-right {
+        margin-top: 32px;
+        max-width: 426px;
+        max-height: 265px;
+        // height: 100%;
+        width: 100%;
+        background: #ffffff;
+        box-shadow: 0px 0px 153px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        .about-host {
+          display: none;
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 151.02%;
+          color: #5d84a7;
+        }
+        .photography-profile {
+          padding: 27px 36px 36px 32px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          .profile-name {
+            h1 {
+              margin: 0px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 22px;
+              /* identical to box height */
+
+              color: #000000;
+            }
+            h2 {
+              margin: 0px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              /* identical to box height */
+
+              color: #5d84a7;
+            }
+          }
+        }
+        p {
+          margin: 0px;
+          max-width: 363px;
+          width: 100%;
+          padding-left: 32px;
+          padding-bottom: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 156.52%;
+          /* or 25px */
+
+          color: #000000;
+        }
+        span {
+          padding-left: 32px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 151.02%;
+          color: #5d84a7;
+          cursor: pointer;
+          // padding-bottom: 29px;
+        }
+        .read-full-story {
+          display: none;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 151.02%;
+          /* or 21px */
+          color: #5d84a7;
+          cursor: pointer;
+        }
+      }
+      .saved-icon {
+        position: absolute;
+        top: -60px;
+        right: 43px;
+      }
+    }
+
+    @media screen and (max-width: 900px) {
+      .bg-img {
+        .header-img {
+          min-height: 342px;
+        }
+      }
+
+      .header-contant {
+        display: block;
+        .header-containt-left {
+          padding-left: 29px;
+          .photography-title {
+            h1 {
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 29px;
+            }
+            h2 {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 151.02%;
+            }
+          }
+          .profile {
+            padding-top: 45px;
+            padding-bottom: 27px;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 10px;
+            .pro {
+              display: flex;
+              align-items: center;
+              h1 {
+                padding-left: 15px;
+                padding-right: 78px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+              }
+            }
+            span {
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 17px;
+            }
+          }
+
+          .sticky-bar-left-side {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 46px;
+            h1 {
+              font-size: 16px;
+              line-height: 151.02%;
+              padding-bottom: 10px;
+            }
+            span {
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+
+          .event-include-wrap {
+            .event-include {
+              max-width: 365px;
+              width: 100%;
+              h1 {
+                padding-top: 36px;
+                font-size: 16px;
+                line-height: 151.02%;
+              }
+
+              .interaction {
+                padding-top: 27px;
+                padding-bottom: 18px;
+
+                font-size: 16px;
+                line-height: 151.02%;
+
+                .emoji {
+                  padding-right: 22px;
+                }
+              }
+
+              .recording {
+                padding-bottom: 86px;
+
+                font-size: 16px;
+                line-height: 151.02%;
+                .emoji {
+                  padding-right: 22px;
+                }
+              }
+              .about-the-event {
+                padding-top: 86px;
+
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 151.02%;
+              }
+              .para {
+                padding-top: 26px;
+                padding-bottom: 18px;
+
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 156.52%;
+              }
+              .read-more {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 151.02%;
+              }
+            }
+          }
+        }
+
+        .header-containt-right {
+          // padding-left: 29px;
+          margin-top: 84px;
+          // max-width: 365px;
+          // max-height: 265px;
+          // height: 100%;
+          width: 100%;
+          box-shadow: none;
+          border-radius: 0px;
+          .about-host {
+            display: flex;
+            padding-left: 32px;
+          }
+          .photography-profile {
+            .profile-name {
+              h1 {
+                font-size: 18px;
+                line-height: 22px;
+              }
+              h2 {
+                font-size: 14px;
+                line-height: 17px;
+              }
+            }
+          }
+          p {
+            max-width: 363px;
+            width: 100%;
+            padding-left: 32px;
+            padding-bottom: 14px;
+
+            font-size: 16px;
+            line-height: 156.52%;
+          }
+          span {
+            display: none;
+            // padding-left: 32px;
+          }
+          .read-full-story {
+            display: flex;
+            align-items: center;
+            padding-left: 32px;
+            gap: 18px;
+          }
+        }
+        // .saved-icon {
+        //   position: absolute;
+        //   top: -60px;
+        //   right: 43px;
+        // }
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 65px;
+    padding-left: 80px;
+    padding-bottom: 57px;
+    .frequently-asked-questions {
+      max-width: 716px;
+      width: 100%;
+      .frq {
+        padding-bottom: 14px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 151.02%;
+        color: #5d84a7;
+      }
+
+      .find-ans {
+        padding-bottom: 34px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 151.02%;
+        text-transform: lowercase;
+        color: #000000;
+      }
+      h1 {
+        flex-grow: 1;
+        margin: 0px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 151.02%;
+        color: #000000;
+      }
+      span {
+        padding-right: 22px;
+        cursor: pointer;
+      }
+
+      .question-1 {
+        display: flex;
+        align-items: center;
+        padding: 16px 0px 14px 21px;
+        background: #ffffff;
+        box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+        border-radius: 9px;
+        margin-bottom: 19px;
+      }
+
+      .question-2 {
+        display: flex;
+        align-items: center;
+        padding: 17px 0px 16px 21px;
+        background: #ffffff;
+        box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+        border-radius: 9px;
+        margin-bottom: 16px;
+        h1 {
+          margin: 0px;
+        }
+      }
+      .question-3 {
+        display: flex;
+        align-items: center;
+        padding: 17px 0px 16px 21px;
+        background: #ffffff;
+        box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+        border-radius: 9px;
+        margin-bottom: 19px;
+        h1 {
+          margin: 0px;
+        }
+      }
+
+      .question-4 {
+        display: flex;
+        align-items: center;
+        padding: 17px 0px 16px 21px;
+        background: #ffffff;
+        box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+        border-radius: 9px;
+        h1 {
+          margin: 0px;
+        }
+      }
+    }
+
+    .post-your-question {
+      h1 {
+        padding-top: 56px;
+        padding-bottom: 17px;
+        margin: 0px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 151.02%;
+        /* or 30px */
+
+        color: #5d84a7;
+      }
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 151.02%;
+        /* or 27px */
+
+        color: #000000;
+      }
+
+      form {
+        padding-top: 44px;
+        textarea {
+          max-width: 715px;
+          width: 100%;
+          padding: 15px 0px 21px 10px;
+          font-family: "Inter";
+          font-style: italic;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 151.02%;
+          color: #aeaeae;
+        }
+        .but {
+          padding-top: 28px;
+          button {
+            padding: 14px 34px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #ffffff;
+            background: #5d84a7;
+            border-radius: 7px;
+            border: 0px;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 850px) {
+      padding-top: 43px;
+      padding-left: 29px;
+      padding-bottom: 64px;
+
+      .frequently-asked-questions {
+        max-width: 370px;
+        width: 100%;
+        .frq {
+          padding-bottom: 9px;
+          font-size: 16px;
+          line-height: 151.02%;
+        }
+
+        .find-ans {
+          padding-bottom: 24px;
+          font-size: 16px;
+          line-height: 151.02%;
+        }
+        h1 {
+          flex-grow: 1;
+          font-size: 16px;
+          line-height: 151.02%;
+        }
+        span {
+          padding-right: 20px;
+        }
+
+        .question-1 {
+          padding: 11px 0px 12px 15px;
+
+          margin-bottom: 14px;
+        }
+
+        .question-2 {
+          padding: 13px 0px 12px 15px;
+
+          margin-bottom: 14px;
+        }
+        .question-3 {
+          padding: 13px 0px 12px 15px;
+          margin-bottom: 14px;
+        }
+
+        .question-4 {
+          padding: 13px 0px 12px 15px;
+        }
+      }
+
+      .post-your-question {
+        h1 {
+          padding-top: 68px;
+          padding-bottom: 15px;
+
+          font-size: 16px;
+          line-height: 151.02%;
+        }
+        span {
+          font-size: 14px;
+          line-height: 151.02%;
+        }
+
+        form {
+          // padding-top: 22px;
+          textarea {
+            max-width: 370px;
+            width: 100%;
+            padding: 7px 0px 10px 5px;
+            font-size: 16px;
+            line-height: 151.02%;
+          }
+          .but {
+            padding-top: 22px;
+            button {
+              padding: 10px 24px;
+              font-size: 18px;
+              line-height: 22px;
+              border: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sticky-bar {
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    box-shadow: 0px -18px 104px -20px rgba(80, 64, 161, 0.3);
+    border-radius: 40px 40px 0px 0px;
+    .sticky-bar-left-side {
+      display: flex;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      gap: 84px;
+      .content-1 {
+        h1 {
+          margin: 0px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 151.02%;
+          /* or 27px */
+
+          color: #5d84a7;
+        }
+        span {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+
+          color: #000000;
+        }
+      }
+
+      .content-2 {
+        h1 {
+          margin: 0px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 151.02%;
+          /* or 27px */
+
+          color: #5d84a7;
+        }
+        span {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+
+          color: #000000;
+        }
+      }
+
+      .content-3 {
+        h1 {
+          margin: 0px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 151.02%;
+          /* or 27px */
+
+          color: #5d84a7;
+        }
+        span {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+
+          color: #000000;
+        }
+      }
+    }
+
+    .sticky-bar-right-side {
+      display: flex;
+      padding-top: 27px;
+      padding-bottom: 16px;
+      gap: 55px;
+
+      .price {
+        h1 {
+          margin: 0px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: #000000;
+        }
+        span {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          /* identical to box height */
+
+          color: #5d84a7;
+        }
+      }
+
+      .tickets {
+        button {
+          background: #5d84a7;
+          border-radius: 13px;
+          border: 0px;
+          padding: 21px 70px;
+
+          a {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            /* identical to box height */
+
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 850px) {
+      display: block;
+      background: #ffffff;
+      box-shadow: 0px -7px 104px -20px rgba(0, 0, 0, 0.15);
+      border-radius: 40px 40px 0px 0px;
+      .sticky-bar-left-side {
+        display: none;
+      }
+
+      .sticky-bar-right-side {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 23px;
+        padding-bottom: 16px;
+        gap: 0;
+
+        .price {
+          h1 {
+            font-size: 16px;
+            line-height: 19px;
+          }
+          span {
+            font-size: 24px;
+            line-height: 29px;
+          }
+        }
+
+        .tickets {
+          button {
+            padding: 21px 76px;
+
+            a {
+              font-size: 22px;
+              line-height: 27px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

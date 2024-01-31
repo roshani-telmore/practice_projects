@@ -1,0 +1,524 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;700;800;900&display=swap");
+
+.ninja-mail-page {
+  background: #ffffff;
+
+  .header-wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    @media screen and (max-width:320px) {
+      max-width: 320px;
+      
+      
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 103px;
+      min-height: 102px;
+      align-items: center;
+      //   padding: 28px 100px 18px 105px;
+      .logo {
+
+        @media screen and (max-width:320px) {
+          max-width: 160px;
+          width: 100%;
+          min-height: 60px;
+          .logo-image {
+            width: 100px;
+          }
+        }
+      }
+      .links {
+        display: flex;
+        align-items: center;
+
+        .menu-link {
+          span {
+            padding-right: 22px;
+
+            a {
+              font-family: "Raleway";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 17px;
+              line-height: 20px;
+              letter-spacing: 1.275px;
+              color: #000000;
+              text-decoration: none;
+              border-bottom: solid #4ba87d;
+            }
+          }
+          @media screen and (max-width: 768px) {
+            font-weight: 800;
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: 0.825px;
+          }
+          @media screen and (max-width: 736px) {
+            display: none;
+          }
+        }
+        .sign-up-link {
+          margin-left: 9px;
+          background: #4ba87d;
+          button {
+            background: #4ba87d;
+            border: 0px;
+            padding: 10px 20px;
+            a {
+              font-family: "Raleway";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 17px;
+              line-height: 20px;
+              text-align: center;
+              letter-spacing: 1.275px;
+              color: #ffffff;
+              text-decoration: none;
+            }
+          }
+
+          @media screen and (max-width: 768px) {
+            font-size: 11px;
+            line-height: 13px;
+            text-align: center;
+            letter-spacing: 1.275px;
+            margin-left: 0px;
+            button {
+              padding: 6px 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header-img {
+    margin: 0 auto;
+    max-width: 1088px;
+    background-image: url("/images/ninjamail-header.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 390px;
+    @media screen and (max-width:320px) {
+      max-width: 300px;
+      min-height: 169px;
+      background-size: contain;
+    }
+    .create-email-para {
+      // padding-left: 176px;
+      max-width: 489px;
+      width: 100%;
+
+      h1 {
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 59px;
+        line-height: 71px;
+        color: #000000;
+        max-width: 489px;
+        width: 100%;
+      }
+      p {
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        color: #000000;
+        max-width: 446px;
+        width: 100%;
+        padding-top: 23px;
+        padding-bottom: 35px;
+      }
+
+      .try-now {
+        background: #4ba87d;
+        border: 0px;
+        a {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 21px;
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 1.05px;
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+      .get-demo {
+        background: #ffffff;
+        border: 3px solid #4ba87d;
+        a {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 21px;
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 2.1px;
+          color: #4ba87d;
+          text-decoration: none;
+        }
+      }
+      .try-now-btn {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          padding: 19px 47px 21px 48px;
+          // border: 0px;
+        }
+      }
+      @media screen and (max-width: 320px) {
+        h1 {
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 46px;
+          max-width: 284px;
+          width: 100%;
+          padding-bottom: 33px;
+        }
+        p {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 16px;
+        }
+        .try-now-btn {
+          button {
+            padding: 12px 25px;
+            a {
+              font-weight: 900;
+              font-size: 13px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .video-bckgrd {
+    background-image: url("/images/ninjamail-video.png");
+    max-width: 944px;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 531px;
+    margin-top: 149px;
+    margin-bottom: 50px;
+    .video-para {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 150px;
+
+      h1 {
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 80px;
+        color: #ffffff;
+        padding-bottom: 61px;
+      }
+      #learn-how {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 1.05px;
+        color: #4ba87d;
+        padding: 19px 32px 21px 32px;
+      }
+
+      @media screen and (max-width: 762px) {
+        padding-top: 50px;
+        h1 {
+          font-weight: 900;
+          font-size: 22px;
+          line-height: 29px;
+          padding-bottom: 10px;
+        }
+        #learn-how {
+          font-weight: 900;
+          font-size: 6px;
+          line-height: 7px;
+          text-align: center;
+          letter-spacing: 0.3px;
+          padding: 6px 13px;
+        }
+      }
+    }
+    @media screen and (max-width: 320px) {
+      max-width: 304px;
+      min-height: 171px;
+    }
+  }
+
+  .sec3-wrap {
+    // background-image: url("/images/ninjamail-sec3-back.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    .sec3 {
+      display: flex;
+      max-width: 1098px;
+      margin: 0 auto;
+      column-gap: 47px;
+
+      .thumb1-wrap {
+        background: #ffffff;
+        max-width: 320px;
+        padding-bottom: 20px;
+        margin-bottom: 100px;
+        p {
+          margin: 0px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+          margin: 24px 39px 4px 30px;
+        }
+        span {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4ba87d;
+          padding: 0px 0px 20px 30px;
+        }
+      }
+
+      .thumb2-wrap {
+        background: #ffffff;
+        max-width: 320px;
+        padding-bottom: 20px;
+        margin-top: 81px;
+        p {
+          margin: 0px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+          margin: 22px 30px 13px 31px;
+        }
+
+        span {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4ba87d;
+          padding: 0px 0px 22px 31px;
+        }
+      }
+
+      .sec3-para {
+        max-width: 320px;
+        padding-bottom: 20px;
+        margin-top: 117px;
+        h1 {
+          margin: 0px;
+          font-family: "Playfair Display";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 48px;
+          color: #000000;
+          margin-bottom: 24px;
+        }
+
+        h2 {
+          margin: 0px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 26px;
+          color: #000000;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        // max-width: 209px;
+        // width: 100%;
+        column-gap: 1px;
+        align-items: center;
+        p {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+        }
+        span {
+          font-weight: 800;
+          font-size: 12px;
+          line-height: 14px;
+        }
+        h1 {
+          font-weight: 900;
+          font-size: 28px;
+          line-height: 31px;
+        }
+        h2 {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+
+      @media screen and (max-width: 971px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  .case-wrap {
+    display: flex;
+    // padding-top: 133px;
+    max-width: 1089px;
+    margin: 0 auto;
+    column-gap: 32px;
+    padding-bottom: 40px;
+    .case-study-info {
+      max-width: 342px;
+      width: 100%;
+
+      .study-img {
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 239px;
+        // max-height: 239px;
+        .info {
+          display: flex;
+          flex-direction: column;
+          padding-left: 27px;
+          .name {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 34px;
+            line-height: 40px;
+            color: #ffffff;
+          }
+          .year {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 21px;
+    }
+  }
+
+  .sec4-para {
+    max-width: 591px;
+    width: 100%;
+    margin: 0 auto;
+    h1 {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 36px;
+      text-align: center;
+      color: #000000;
+    }
+    .email-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 13px;
+      gap: 17px;
+      form {
+        background: #ffffff;
+        border: 1px solid #9f9f9f;
+        border-radius: 5px;
+        input {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 15px;
+          letter-spacing: 0.65px;
+          color: #000000;
+          padding: 12px 150px 15px 16px;
+          border: 0px;
+        }
+      }
+
+      .join-btn {
+        button {
+          background: #4ba87d;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 13px;
+          line-height: 15px;
+          text-align: center;
+          letter-spacing: 0.65px;
+          color: #ffffff;
+          padding: 13px 22px 14px 22px;
+          border: 0px;
+        }
+      }
+      @media screen and (max-width: 320px) {
+        flex-direction: column;
+        form {
+          input {
+            padding: 12px 100px 15px 16px;
+          }
+        }
+      }
+    }
+
+    .thanks {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 0.65px;
+      color: #4ba87d;
+      text-align: center;
+    }
+    @media screen and (max-width: 320px) {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 36px;
+      }
+    }
+  }
+}

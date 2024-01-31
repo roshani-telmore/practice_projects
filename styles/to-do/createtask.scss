@@ -1,0 +1,61 @@
+.create-new-task {
+  background: #07c7a4;
+  height: 930px;
+  display: flex;
+  align-items: center;
+  .task-to {
+    max-width: 814px;
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      padding-top: 30px;
+      padding-bottom: 75px;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 34px;
+      color: #07c7a4;
+    }
+    .input-form {
+      display: flex;
+      align-items: center;
+      .enter-task {
+        width: 300px;
+        height: 76px;
+        background: #f2f2f2;
+        border: 1px solid #07c7a4;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 34px;
+      }
+      .create-btn {
+        background: #07c7a4;
+        border-radius: 7px;
+        border: 0;
+        width: 175px;
+        height: 76px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 34px;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .cancel {
+        padding-left: 35px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 34px;
+        text-align: center;
+        color: #07c7a4;
+        cursor: pointer;
+      }
+    }
+  }
+}

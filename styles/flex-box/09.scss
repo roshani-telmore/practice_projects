@@ -1,0 +1,129 @@
+// html,
+// body {
+//   margin: 0;
+//   padding: 0;
+//   font-size: 16px;
+// }
+
+// .reponsive-img {
+//   width: 100%;
+//   height: auto;
+// }
+.FlexBoxNinePage {
+  background-color: #e5e5e5;
+  font-family: "Neue Haas Unica W1G";
+  .header {
+    display: flex;
+    border-bottom: solid 3px #000000;
+    padding: 33px 109px 34px 90px;
+    justify-content: space-between;
+    .logo {
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+    }
+  }
+  .content {
+    display: flex;
+    flex-grow: 1;
+    .parking-img {
+      width: 100%;
+      max-width: 50vw;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .paragraph {
+      padding: 55px 90px 55px 62px;
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3.34rem;
+      line-height: 120%;
+      width: 50vw;
+
+      /* or 77px */
+
+      color: #000000;
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
+      flex-grow: 1;
+      // padding-left: 60px;
+      // padding-top: 55px;
+      // padding-right: 90px;
+
+      p {
+        margin: 0px;
+      }
+    }
+  }
+  .footer {
+    display: flex;
+    flex-grow: 1;
+
+    .footer-left-side {
+      //padding: 61px 663px 61px 98px;
+      flex-grow: 1;
+      .text-1 {
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+
+        /* or 24px */
+
+        color: #000000;
+
+        padding-top: 61px;
+        padding-left: 98px;
+      }
+      .text-2 {
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+
+        /* or 24px */
+
+        color: #000000;
+        padding-left: 98px;
+      }
+      .heading {
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 200px;
+        line-height: 100%;
+
+        /* identical to box height, or 200px */
+
+        color: #000000;
+        flex-grow: 1;
+        padding-left: 90px;
+        padding-top: 61px;
+        padding-right: 65px;
+        //padding: 98px 49px 225px 90px;
+      }
+    }
+    .footer-right-side {
+      display: flex;
+      flex-grow: 1;
+      //   width: 50vw;
+      .beach-img {
+        display: flex;
+        width: 100%;
+        max-width: 50vw;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

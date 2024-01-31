@@ -1,0 +1,119 @@
+body {
+  .flex-box-five-page {
+    display: flex;
+    font-family: "Neue Haas Unica W1G";
+    background-color: #e5e5e5;
+    // width: 1920px;
+    // height: 1080px;
+    flex-direction: column;
+    .head {
+      display: flex;
+      border-bottom: solid 3px#000000;
+      padding: 33px 109px 37px 90px;
+      font-family: "Neue Haas Unica W1G";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      .text-1 {
+        display: flex;
+        flex-grow: 1;
+      }
+      .text-2 {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+      }
+    }
+    .content {
+      display: flex;
+
+      .left-side-box {
+        display: flex;
+        flex-direction: column;
+        //border-right: solid 3px #000000;
+        .heading-1 {
+          //display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 96px;
+          line-height: 100%;
+          padding: 80px 50px 0px 90px;
+        }
+        .paragraph {
+          //display: flex;
+          padding: 497px 74px 230px 97px;
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 120%;
+        }
+      }
+      .right-side-box {
+        //display: flex;
+        flex-direction: column;
+        border-left: solid 3px #000000;
+
+        .img {
+          display: flex;
+          margin-right: 90px;
+        }
+        .inside-right-side-box {
+          //display: flex;
+          //flex-direction: column;
+          border-top: solid 3px #000000;
+          .heading-2 {
+            display: flex;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 100%;
+            padding: 40px 919px 0px 74px;
+          }
+          .points {
+            display: flex;
+            //padding: 153px 203px 90px 145px;
+            .point-1 {
+              display: flex;
+              padding: 137px 200px 0px 75px;
+
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 110%;
+              justify-content: center;
+              align-items: center;
+
+              span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 110%;
+                padding-right: 24px;
+              }
+            }
+            .point-2 {
+              display: flex;
+              padding: 137px 203px 0px 0px;
+              justify-content: center;
+              align-items: center;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 110%;
+
+              span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 110%;
+                padding-right: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
